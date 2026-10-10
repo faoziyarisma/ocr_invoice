@@ -1,0 +1,386 @@
+[
+  {
+    "document_id": "doc_001_clean",
+    "noise_level": "clean",
+    "overall_confidence": 0.0,
+    "needs_human_review": true,
+    "latency_ms": 0.9,
+    "cost_usd": 0.0,
+    "fields": {
+      "vendor_name": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "Green Valley Traders",
+        "category": "false_abstain"
+      },
+      "invoice_number": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "INV-2824",
+        "category": "false_abstain"
+      },
+      "invoice_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "2026-01-18",
+        "category": "false_abstain"
+      },
+      "due_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "2026-04-17",
+        "category": "false_abstain"
+      },
+      "bill_to": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "PT Client 9 Indonesia",
+        "category": "false_abstain"
+      },
+      "subtotal": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "386.87",
+        "category": "false_abstain"
+      },
+      "tax_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "42.56",
+        "category": "false_abstain"
+      },
+      "total_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "429.43",
+        "category": "false_abstain"
+      },
+      "currency": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "USD",
+        "category": "false_abstain"
+      }
+    }
+  },
+  {
+    "document_id": "doc_002_medium_noise",
+    "noise_level": "medium",
+    "overall_confidence": 0.0,
+    "needs_human_review": true,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "fields": {
+      "vendor_name": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "Green Valley Traders",
+        "category": "false_abstain"
+      },
+      "invoice_number": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "INV-1434",
+        "category": "false_abstain"
+      },
+      "invoice_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "2026-09-16",
+        "category": "false_abstain"
+      },
+      "due_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "2026-09-23",
+        "category": "false_abstain"
+      },
+      "bill_to": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "PT Client 15 Indonesia",
+        "category": "false_abstain"
+      },
+      "subtotal": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "753.77",
+        "category": "false_abstain"
+      },
+      "tax_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "82.91",
+        "category": "false_abstain"
+      },
+      "total_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "836.68",
+        "category": "false_abstain"
+      },
+      "currency": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "USD",
+        "category": "false_abstain"
+      }
+    }
+  },
+  {
+    "document_id": "doc_003_messy_scan",
+    "noise_level": "messy",
+    "overall_confidence": 0.0,
+    "needs_human_review": true,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "fields": {
+      "vendor_name": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "Nusantara Supplies Co",
+        "category": "false_abstain"
+      },
+      "invoice_number": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "INV-4527",
+        "category": "false_abstain"
+      },
+      "invoice_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "2026-06-13",
+        "category": "false_abstain"
+      },
+      "due_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "2026-02-22",
+        "category": "false_abstain"
+      },
+      "bill_to": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "PT Client 7 Indonesia",
+        "category": "false_abstain"
+      },
+      "subtotal": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "691.38",
+        "category": "false_abstain"
+      },
+      "tax_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "76.05",
+        "category": "false_abstain"
+      },
+      "total_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "767.43",
+        "category": "false_abstain"
+      },
+      "currency": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "USD",
+        "category": "false_abstain"
+      }
+    }
+  },
+  {
+    "document_id": "doc_004_missing_duedate",
+    "noise_level": "medium",
+    "overall_confidence": 0.0,
+    "needs_human_review": true,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "fields": {
+      "vendor_name": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "Green Valley Traders",
+        "category": "false_abstain"
+      },
+      "invoice_number": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "INV-8889",
+        "category": "false_abstain"
+      },
+      "invoice_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "2026-02-14",
+        "category": "false_abstain"
+      },
+      "due_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": null,
+        "category": "correct_abstain"
+      },
+      "bill_to": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "PT Client 30 Indonesia",
+        "category": "false_abstain"
+      },
+      "subtotal": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "902.73",
+        "category": "false_abstain"
+      },
+      "tax_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "99.30",
+        "category": "false_abstain"
+      },
+      "total_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "1002.03",
+        "category": "false_abstain"
+      },
+      "currency": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "USD",
+        "category": "false_abstain"
+      }
+    }
+  },
+  {
+    "document_id": "doc_005_idr_currency",
+    "noise_level": "clean",
+    "overall_confidence": 0.0,
+    "needs_human_review": true,
+    "latency_ms": 0.0,
+    "cost_usd": 0.0,
+    "fields": {
+      "vendor_name": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "Green Valley Traders",
+        "category": "false_abstain"
+      },
+      "invoice_number": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "INV-6119",
+        "category": "false_abstain"
+      },
+      "invoice_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "2026-01-20",
+        "category": "false_abstain"
+      },
+      "due_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "2026-09-10",
+        "category": "false_abstain"
+      },
+      "bill_to": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "PT Client 31 Indonesia",
+        "category": "false_abstain"
+      },
+      "subtotal": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "1966.05",
+        "category": "false_abstain"
+      },
+      "tax_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "216.27",
+        "category": "false_abstain"
+      },
+      "total_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "2182.32",
+        "category": "false_abstain"
+      },
+      "currency": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "IDR",
+        "category": "false_abstain"
+      }
+    }
+  },
+  {
+    "document_id": "doc_006_messy_missing_field",
+    "noise_level": "messy",
+    "overall_confidence": 0.0,
+    "needs_human_review": true,
+    "latency_ms": 0.0,
+    "cost_usd": 0.0,
+    "fields": {
+      "vendor_name": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "Bluewave Logistics Ltd",
+        "category": "false_abstain"
+      },
+      "invoice_number": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "INV-5738",
+        "category": "false_abstain"
+      },
+      "invoice_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "2026-03-11",
+        "category": "false_abstain"
+      },
+      "due_date": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": null,
+        "category": "correct_abstain"
+      },
+      "bill_to": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "PT Client 17 Indonesia",
+        "category": "false_abstain"
+      },
+      "subtotal": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "578.45",
+        "category": "false_abstain"
+      },
+      "tax_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "63.63",
+        "category": "false_abstain"
+      },
+      "total_amount": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "642.08",
+        "category": "false_abstain"
+      },
+      "currency": {
+        "predicted": null,
+        "confidence": 0.0,
+        "ground_truth": "USD",
+        "category": "false_abstain"
+      }
+    }
+  }
+]

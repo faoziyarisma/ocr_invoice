@@ -1,0 +1,33 @@
+{
+  "document_id": "doc_003_messy_scan",
+  "vendor_name": "Nusantara Supplies Co",
+  "invoice_number": "INV-4527",
+  "invoice_date": "2026-06-13",
+  "due_date": "2026-02-22",
+  "bill_to": "PT Client 7 Indonesia",
+  "subtotal": "691.38",
+  "tax_amount": "76.05",
+  "total_amount": "767.43",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Product A",
+      "quantity": 3,
+      "unit_price": 124.71,
+      "line_total": 374.13
+    },
+    {
+      "description": "Product B",
+      "quantity": 1,
+      "unit_price": 148.65,
+      "line_total": 148.65
+    },
+    {
+      "description": "Product C",
+      "quantity": 5,
+      "unit_price": 33.72,
+      "line_total": 168.6
+    }
+  ],
+  "noise_level": "messy"
+}

@@ -1,0 +1,123 @@
+{
+  "note": "DRY RUN (mock LLM, no Docker) \u2014 dihasilkan di sandbox pengembangan tanpa akses network/Docker. Jalankan `docker compose run --rm eval` untuk hasil via jalur API HTTP asli.",
+  "n_documents_evaluated": 6,
+  "n_documents_errored": 0,
+  "n_documents_flagged_for_review": 6,
+  "avg_latency_ms_per_doc": 0.2,
+  "total_cost_usd": 0.0,
+  "avg_cost_usd_per_doc": 0.0,
+  "per_field_metrics": {
+    "vendor_name": {
+      "n": 6,
+      "exact_match": 0,
+      "correct_abstain": 0,
+      "hallucination": 0,
+      "wrong_value": 0,
+      "false_abstain": 6,
+      "accuracy_on_present_fields": 0.0,
+      "hallucination_rate": null,
+      "abstention_precision": 0.0,
+      "confidence_calibration_gap": null
+    },
+    "invoice_number": {
+      "n": 6,
+      "exact_match": 0,
+      "correct_abstain": 0,
+      "hallucination": 0,
+      "wrong_value": 0,
+      "false_abstain": 6,
+      "accuracy_on_present_fields": 0.0,
+      "hallucination_rate": null,
+      "abstention_precision": 0.0,
+      "confidence_calibration_gap": null
+    },
+    "invoice_date": {
+      "n": 6,
+      "exact_match": 0,
+      "correct_abstain": 0,
+      "hallucination": 0,
+      "wrong_value": 0,
+      "false_abstain": 6,
+      "accuracy_on_present_fields": 0.0,
+      "hallucination_rate": null,
+      "abstention_precision": 0.0,
+      "confidence_calibration_gap": null
+    },
+    "due_date": {
+      "n": 6,
+      "exact_match": 0,
+      "correct_abstain": 2,
+      "hallucination": 0,
+      "wrong_value": 0,
+      "false_abstain": 4,
+      "accuracy_on_present_fields": 0.0,
+      "hallucination_rate": 0.0,
+      "abstention_precision": 0.3333,
+      "confidence_calibration_gap": 0.0
+    },
+    "bill_to": {
+      "n": 6,
+      "exact_match": 0,
+      "correct_abstain": 0,
+      "hallucination": 0,
+      "wrong_value": 0,
+      "false_abstain": 6,
+      "accuracy_on_present_fields": 0.0,
+      "hallucination_rate": null,
+      "abstention_precision": 0.0,
+      "confidence_calibration_gap": null
+    },
+    "subtotal": {
+      "n": 6,
+      "exact_match": 0,
+      "correct_abstain": 0,
+      "hallucination": 0,
+      "wrong_value": 0,
+      "false_abstain": 6,
+      "accuracy_on_present_fields": 0.0,
+      "hallucination_rate": null,
+      "abstention_precision": 0.0,
+      "confidence_calibration_gap": null
+    },
+    "tax_amount": {
+      "n": 6,
+      "exact_match": 0,
+      "correct_abstain": 0,
+      "hallucination": 0,
+      "wrong_value": 0,
+      "false_abstain": 6,
+      "accuracy_on_present_fields": 0.0,
+      "hallucination_rate": null,
+      "abstention_precision": 0.0,
+      "confidence_calibration_gap": null
+    },
+    "total_amount": {
+      "n": 6,
+      "exact_match": 0,
+      "correct_abstain": 0,
+      "hallucination": 0,
+      "wrong_value": 0,
+      "false_abstain": 6,
+      "accuracy_on_present_fields": 0.0,
+      "hallucination_rate": null,
+      "abstention_precision": 0.0,
+      "confidence_calibration_gap": null
+    },
+    "currency": {
+      "n": 6,
+      "exact_match": 0,
+      "correct_abstain": 0,
+      "hallucination": 0,
+      "wrong_value": 0,
+      "false_abstain": 6,
+      "accuracy_on_present_fields": 0.0,
+      "hallucination_rate": null,
+      "abstention_precision": 0.0,
+      "confidence_calibration_gap": null
+    }
+  },
+  "aggregate": {
+    "macro_avg_field_accuracy": 0.0,
+    "total_hallucinations": 0
+  }
+}

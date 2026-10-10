@@ -1,0 +1,28 @@
+services:
+  api:
+    build: ./api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  eval:
+    build: ./eval
+    depends_on:
+      api:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - API_URL=http://api:8000
+    volumes:
+      - ./data/samples:/data/samples:ro
+      - ./data/ground_truth:/data/ground_truth:ro
+      - ./outputs:/outputs
+    profiles:
+      - eval

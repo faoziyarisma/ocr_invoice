@@ -1,0 +1,33 @@
+{
+  "document_id": "doc_005_idr_currency",
+  "vendor_name": "Green Valley Traders",
+  "invoice_number": "INV-6119",
+  "invoice_date": "2026-01-20",
+  "due_date": "2026-09-10",
+  "bill_to": "PT Client 31 Indonesia",
+  "subtotal": "1966.05",
+  "tax_amount": "216.27",
+  "total_amount": "2182.32",
+  "currency": "IDR",
+  "line_items": [
+    {
+      "description": "Product A",
+      "quantity": 5,
+      "unit_price": 182.15,
+      "line_total": 910.75
+    },
+    {
+      "description": "Product B",
+      "quantity": 5,
+      "unit_price": 149.42,
+      "line_total": 747.1
+    },
+    {
+      "description": "Product C",
+      "quantity": 4,
+      "unit_price": 77.05,
+      "line_total": 308.2
+    }
+  ],
+  "noise_level": "clean"
+}

@@ -1,0 +1,39 @@
+{
+  "document_id": "doc_004_missing_duedate",
+  "vendor_name": "Green Valley Traders",
+  "invoice_number": "INV-8889",
+  "invoice_date": "2026-02-14",
+  "due_date": null,
+  "bill_to": "PT Client 30 Indonesia",
+  "subtotal": "902.73",
+  "tax_amount": "99.30",
+  "total_amount": "1002.03",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Product A",
+      "quantity": 1,
+      "unit_price": 109.44,
+      "line_total": 109.44
+    },
+    {
+      "description": "Product B",
+      "quantity": 5,
+      "unit_price": 26.8,
+      "line_total": 134.0
+    },
+    {
+      "description": "Product C",
+      "quantity": 4,
+      "unit_price": 129.83,
+      "line_total": 519.32
+    },
+    {
+      "description": "Product D",
+      "quantity": 1,
+      "unit_price": 139.97,
+      "line_total": 139.97
+    }
+  ],
+  "noise_level": "medium"
+}
